@@ -1,0 +1,153 @@
+html {
+    border-left: 5px lightgray;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-weight: lighter;
+max-width: 1000px;
+margin: auto;
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color:tomato;
+}
+
+img {
+    width:100%;
+}
+
+.nav-ul {
+    padding:none;
+    list-style-type: none;
+    display:flex ;
+    color: lightgray;
+    font-size: 30px;
+    margin-left: -41px;
+    text-decoration: underline 3px;
+}
+
+.nav-ul2 {
+        padding:none;
+        list-style-type: none;
+        display:flex ;
+        color: tomato;
+        margin-left: -41px;
+    }
+        
+
+li {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:10px ;
+    margin-left:10px;
+    
+    
+}
+
+.nav-foot {
+    margin-left: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-left: solid 1px lightgray;
+    margin-right:5px;
+}
+.nav-foot1 {
+    margin-right: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}   
+
+h1 { font-family: sans-serif;
+    font-weight: lighter;
+font-size: 70px;
+margin-top: 60px;}
+
+
+h2 {
+    font-weight: lighter;
+    font-size:36px;
+    margin-top: -35px;
+}
+
+time {
+    font-size: 45px;
+color:lightgray;
+
+
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.continues {
+    color:tomato;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 770px;
+    text-decoration: none;
+}
+
+
+h4 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: lightgray;
+    margin-top:20px;
+    margin-bottom: 80px;
+}
+
+hr {
+    color:lightgrey;
+margin-top: 40px;
+margin-bottom: 100px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+
+.huge {
+    font-size:90px;
+    color: lightgrey;
+    float: left;
+margin-top:-10px;
+margin-right:20px;
+} 
+
+
+p {
+    font-size: 20px;
+}
+
+
+
+    
+p::first-letter{
+    font-size: 80px;
+    color: lightgray;
+ }
+ p.new_style:first-letter {
+    font-size: 110px;
+    display: block;
+    float: left;
+    line-height: 0.5;
+    margin: 15px 15px 10px 0;
+    color: lightgrey;
+
